@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>สินค้า | ร้านขายดอกไม้</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #efe4f0; }
+        nav a { margin: 0 15px; text-decoration: none; color: #e5a1f1; font-weight: bold; }
+        .product-container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .product {
+            width: 250px;
+            border: 1px solid #efe4f0;
+            padding: 10px;
+            border-radius: 10px;
+            background: white;
+        }
+        .product img { width: 100%; border-radius: 10px; }
+        button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 8px;
+            background: #e5a1f1;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="products.html">สินค้า</a>
+    <a href="contact.html">ติดต่อ</a>
+</nav>
+
+<h2>รายการสินค้า</h2>
+
+<div class="product-container">
+
+    <div class="product">
+        <img src="dok1.jpg" alt="ลิลลี่">
+        <h3>ช่อลิลลี่</h3>
+        <p>ราคา: 650 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok2.jpg" alt="ดอกคาร์เนชั่น">
+        <h3>ช่อดอกคาร์เนชั่น</h3>
+        <p>ราคา: 690 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok3.jpg" alt="ดอกไฮเดรนเยีย">
+        <h3>ช่อดอกไฮเดรนเยีย</h3>
+        <p>ราคา: 750 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+</div>
+
+</body>
+</html>
